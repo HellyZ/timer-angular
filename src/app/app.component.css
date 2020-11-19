@@ -1,0 +1,17 @@
+.timer-block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.clock {
+  font-family: "Orbitron", sans-serif;
+  font-size: 5em;
+}

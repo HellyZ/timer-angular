@@ -1,0 +1,10 @@
+<div class="timer-block">
+  <div class="clock">{{ formatTime(display) }}</div>
+
+  <div class="controls">
+    <button (click)="handleStart()" [disabled]="isEnable">Start</button>
+    <button (click)="handleStop()">Stop</button>
+    <button #waitBtn>Wait</button>
+    <button (click)="handleReset()">Reset</button>
+  </div>
+</div>
